@@ -1,0 +1,28 @@
+//*************** L a n d i n g  P a g e ***********//
+CookiePopUp=CssSelector:#onetrust-accept-btn-handler
+
+//*************** My   P D P   P a g e ***********//
+pdpSelectedSizeElement=CssSelector:button.bg-gray-850	
+pdpProductNameElements=CssSelector:#pdp-name
+addToBagElement=CssSelector:#add-to-bag-button	
+viewBagElement=CssSelector:[data-testid='cartCount'] 
+cartCountElements=CssSelector:[data-testid='BASKET_COUNT'],[data-testid='cartCount']
+
+//*************** My   P L P   P a g e ***********//
+productsList=Id:plp-product-list
+
+//*************** My C a r t  P a g e ***********//
+//getCartPageProductNameElements=CssSelector:[class='font-brand-thin text-sm text-new-brand-black hover:underline lg:text-base lg:tracking-wide']
+cartSubTotalEle=CssSelector:#cart-subtotal p.font-brand-thin
+checkoutButtonEle=Id:checkout-button-bottom
+
+//*************** MY   C h e c k o u t   P a g e ***********//
+submitButtonEle=CssSelector:button[type='submit']
+passwordElement=Id:customer-password
+checkoutProductNameEle=CssSelector:ul.bag-item__details-list .bag-item__name
+checkoutProductSizeEle=Xpath://ul[contains(@class, 'bag-item__details-list')]//li[contains(text(), 'Size')]
+checkoutSubtotalEle=Xpath://li[contains(@class, 'subtotal')]/span[2]
+deliveryTotalEle=Xpath://*[contains(text(),'Saver Delivery')]
+grandTotalEle=Xpath://li[contains(@class, 'grand-total')]/span[2]
+paymentButtonEle=CssSelector:div.button-set button[type='submit']
+	
